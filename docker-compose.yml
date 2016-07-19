@@ -1,2 +1,7 @@
 jenkins:
   image: jenkins
+  volumes:
+    - jenkins_data:/opt/jenkins
+  ports:
+    - "8080:8080"
+    - "50000:50000"
