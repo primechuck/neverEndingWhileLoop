@@ -8,17 +8,21 @@ case "$1" in
         # Build images based off of the compose file
         docker-compose build
         ;;
-    create)
+    up)
         # Run compose up based on compose file
         docker-compose up -d
         ;;
-    run)
+    start)
         # Start containers based on compose file
         docker-compose start
         ;;
     logs)
         # Follow server logs
         docker-compose logs --no-color
+        ;;
+    logsf)
+        # Follow server logs
+        docker-compose logs --no-color --follow
         ;;
     ps)
         # View running containers based off of compose file
