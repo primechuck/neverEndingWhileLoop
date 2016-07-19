@@ -1,3 +1,1 @@
-MAINTAINER david-masterofdocker@bierce.org
-
-FROM jenkins
+FROM jenkins:apline
