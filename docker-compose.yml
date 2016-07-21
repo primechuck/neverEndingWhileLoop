@@ -1,5 +1,5 @@
 jenkins:
-  build: jenkins-app/
+  image: jenkins:2.7.1
   volumes:
     - jenkins_data:/opt/jenkins
   ports:
