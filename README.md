@@ -1,4 +1,4 @@
 # neverEndingWhileLoop
 
 
-Demo Jenkins server available at https://jenkins.bierce.org
+Demo Jenkins server available at http://jenkins.bierce.org:8080
